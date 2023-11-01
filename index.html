@@ -15,8 +15,127 @@
 </head>
 
 <body>
-    <h1><i class="xi-close"></i>test</h1>
-    <button class="btn">click</button>
+    <div class="wrap">
+        <!-- 상위 css 네이밍 규칙은 pascal case를 쓰기로 하고 하위는 적절히 섞어서 응용하겠음. -->
+        <header class="Header">
+            <!-- http://gridcalculator.dk/ 그리드 계산기 -->
+            <div class="inner">
+                <h1>
+                    <a href="./">
+                        <img src="./image/grafflogo.png" alt="graff">
+                    </a>
+                </h1>
+                <nav class="Gnb">
+                    <ul>
+                        <li><a href="">하이주얼리</a></li>
+                        <li><a href="">주얼리 컬렉션</a></li>
+                        <li><a href="">컬렉션 &amp; 브라이덜</a></li>
+                        <li><a href="">웨딩주얼리</a></li>
+                        <li><a href="">특별한 솔리테어</a></li>
+                    </ul>
+                </nav>
+                <div class="search">
+                    <i class="xi-search"></i>
+                </div>
+            </div>
+        </header>
+        <main class="Main">
+            <section class="MainVisual">
+                <!-- h2 스크린 리더기는 읽을 수 있고 화면에는 보이지 않게함. (ir기법)-->
+                <h2 class="blind">main content</h2>
+                <div class="main_visual_slide">
+                    <div class="itm itm01"></div>
+                    <div class="itm itm02"></div>
+                    <div class="itm itm03"></div>
+                </div>
+            </section>
+            <!-- ********* 최고로 중요 ************* -->
+            <section class="MainBassic">
+                <div class="title">
+                    <h2>JEWELLERY COLLECTION EVENT</h2>
+                    <p>모던하면서도 클래식한 디자인들을 완벽하게 표현한 그라프 하우스의 시그너쳐 컬렉션은 다양한 컷, 스톤 그리고 색상들을 멋진 조합으로 선사합니다.</p>
+                </div>
+                <div class="inner">
+                    <figure>
+                        <div class="img_wrap">
+                            <img src="./image/lesedilarona01.jpg" alt="">
+                        </div>
+                        <strong>모던하면서도 클래식한</strong>
+                        <div class="order">
+                            <a href="">구매하기</a>
+                        </div>
+                    </figure>
+                    <figure>
+                        <div class="img_wrap">
+                            <img src="./image/lesedilarona02.jpg" alt="">
+                        </div>
+                        <strong>디자인들을 완벽하게 표현한</strong>
+                        <div class="order">
+                            <a href="">구매하기</a>
+                        </div>
+                    </figure>
+                    <figure>
+                        <div class="img_wrap">
+                            <img src="./image/lesedilarona03.jpg" alt="">
+                        </div>
+                        <strong>그라프 하우스의 시그너쳐</strong>
+                        <div class="order">
+                            <a href="">구매하기</a>
+                        </div>
+                    </figure>
+                </div>
+            </section>
+            <section class="MainProduct">
+                <div class="title">
+                    <h2>JEWELLERY COLLECTION EVENT</h2>
+                    <p>모던하면서도 클래식한 디자인들을 완벽하게 표현한 그라프 하우스의 시그너쳐 컬렉션은 다양한 컷, 스톤 그리고 색상들을 멋진 조합으로 선사합니다.</p>
+                </div>
+                <div class="inner">
+                    <div class="Main_product_slide">
+                        <figure>
+                            <div class="img_wrap">
+                                <img src="./image/lesedilarona01.jpg" alt="">
+                            </div>
+                        </figure>
+                        <figure>
+                            <div class="img_wrap">
+                                <img src="./image/lesedilarona02.jpg" alt="">
+                            </div>
+                        </figure>
+                        <figure>
+                            <div class="img_wrap">
+                                <img src="./image/lesedilarona03.jpg" alt="">
+                            </div>
+                        </figure>
+                        <figure>
+                            <div class="img_wrap">
+                                <img src="./image/lesedilarona04.jpg" alt="">
+                            </div>
+                        </figure>
+                        <figure>
+                            <div class="img_wrap">
+                                <img src="./image/lesedilarona05.jpg" alt="">
+                            </div>
+                        </figure>
+                        <figure>
+                            <div class="img_wrap">
+                                <img src="./image/lesedilarona06.jpg" alt="">
+                            </div>
+                        </figure>
+                    </div>
+                    <div class="arrows">
+                        <i class="xi-arrow-left left"></i>
+                        <i class="xi-arrow-right right"></i>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="Footer"></footer>
+
+        <button class="totop">
+            <i class="xi-arrow-top"></i>
+        </button>
+    </div>
 </body>
 
 </html>
